@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="372.0" prefWidth="363.0" style="-fx-background-color: D0D4CA;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller.AddStudentFormController">
+   <children>
+      <JFXTextField fx:id="txtStudentID" layoutX="32.0" layoutY="50.0" prefHeight="26.0" prefWidth="294.0" promptText="Enter student ID" />
+      <JFXTextField fx:id="txtStudentName" layoutX="32.0" layoutY="136.0" prefHeight="26.0" prefWidth="294.0" promptText="Enter student name" />
+      <JFXTextField fx:id="txtStudentAddress" layoutX="32.0" layoutY="220.0" prefHeight="26.0" prefWidth="294.0" promptText="Enter student address" />
+      <JFXButton layoutX="109.0" layoutY="317.0" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #535353;" text="Update" textFill="WHITE" />
+      <JFXButton layoutX="269.0" layoutY="317.0" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #535353;" text="Search" textFill="WHITE" />
+      <JFXButton layoutX="32.0" layoutY="317.0" onAction="#btnAddOnAction" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #535353;" text="Add" textFill="WHITE" />
+      <JFXButton layoutX="188.0" layoutY="317.0" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #535353;" text="Delete" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="32.0" prefHeight="18.0" prefWidth="125.0" text="Student ID" />
+      <Label layoutX="32.0" layoutY="117.0" prefHeight="18.0" prefWidth="125.0" text="Student Name" />
+      <Label layoutX="32.0" layoutY="201.0" prefHeight="18.0" prefWidth="125.0" text="Student Address" />
+   </children>
+</AnchorPane>
